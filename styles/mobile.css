@@ -1,0 +1,17 @@
+/* --------------------Mobile/Small Device Responsive Added-------------------- */
+
+@media only screen and (max-width: 576px) {
+  /* -----Navbar Mobile/Small Device Responsive Added----- */
+  nav {
+    padding: 3.5rem 0 3rem;
+  }
+  .nav-container {
+    margin: 0 1.25rem;
+  }
+  .fa-bars {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+  }
+}
