@@ -11,4 +11,43 @@
   .nav-links {
     gap: 2rem;
   }
+
+  /* -----Banner Section Tablet/Medium Device Responsive Added----- */
+  .banner-container {
+    flex-direction: column;
+    margin: 0 4.5rem;
+  }
+
+  .banner-left {
+    width: 100%;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-right {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7rem;
+  }
+
+  .box-1 {
+    top: 10%;
+    right: 27%;
+  }
+
+  .play {
+    bottom: 45%;
+    right: 69%;
+  }
+
+  .box-2 {
+    bottom: 22%;
+    right: 52%;
+  }
 }

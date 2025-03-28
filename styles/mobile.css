@@ -14,4 +14,42 @@
   .nav-links {
     display: none;
   }
+
+  /* -----Banner Section Mobile/Small Device Responsive Added----- */
+  .banner-container {
+    flex-direction: column;
+    margin: 0 1.5rem;
+  }
+
+  .banner-left {
+    width: 100%;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner-right {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .box-1 {
+    top: 9%;
+    right: 13%;
+  }
+
+  .play {
+    bottom: 45%;
+    right: 78%;
+  }
+
+  .box-2 {
+    bottom: 40%;
+    right: 52%;
+  }
 }
