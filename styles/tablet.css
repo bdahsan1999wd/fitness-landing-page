@@ -16,6 +16,7 @@
   .banner-container {
     flex-direction: column;
     margin: 0 4.5rem;
+    outline: 1px solid greenyellow;
   }
 
   .banner-left {
@@ -49,5 +50,16 @@
   .box-2 {
     bottom: 22%;
     right: 52%;
+  }
+
+  /* -----Change Your Habits Section Tablet/Medium Device Responsive Added----- */
+  .change-habits {
+    margin: 0 4.5rem;
+  }
+  .habits-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .habits-box img {
+    width: 75%;
   }
 }

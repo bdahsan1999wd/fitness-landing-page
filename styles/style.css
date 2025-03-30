@@ -38,6 +38,21 @@ body {
   border: none;
   cursor: pointer;
 }
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+.section-description {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /* -------------------------Shared Styles Ends Here-------------------------*/
 
 /* ----------Heading Section Styles Added---------- */
@@ -143,9 +158,6 @@ a {
 }
 
 /* -----Banner Left Items Styles Added----- */
-.banner-left {
-  outline: 1px solid red;
-}
 .banner-text h1 {
   font-size: 4.875rem;
   font-weight: 900;
@@ -184,9 +196,6 @@ a {
 }
 
 /* -----Banner Right Items Styles Added----- */
-.banner-right {
-  outline: 1px solid gold;
-}
 
 /* -----banner image Styles Added----- */
 .banner-image {
@@ -247,7 +256,7 @@ a {
   /* right: 6.7vw; */
 }
 
-/* -----box-2----- */
+/* -----box-2 styles added----- */
 .box-2 {
   flex-direction: column;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -274,4 +283,57 @@ a {
   font-weight: 400;
   line-height: 1.5rem;
   color: rgba(239, 237, 232, 0.65);
+}
+
+/* ---------- Main Section Styles Added---------- */
+main {
+  outline: 1px solid red;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: rgb(0, 0, 0);
+  padding: 1px;
+}
+
+/* ---------- Change Your Habits Section Styles Added ---------- */
+.change-habits {
+  outline: 1px solid blue;
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+
+/* -----Habits Container----- */
+.habits-container {
+  margin-top: 3.375rem;
+  margin-bottom: 6rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+}
+
+.habits-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.habits-box img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.habits-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 120%;
+  color: rgb(255, 255, 255);
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.habits-description {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: rgba(255, 255, 255, 0.5);
 }
