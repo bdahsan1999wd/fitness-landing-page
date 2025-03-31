@@ -64,4 +64,18 @@
   .habits-box img {
     width: 50%;
   }
+
+  /* ----------Run Section Mobile/Small Device Responsive Added---------- */
+  .run-section {
+    flex-direction: column;
+    margin: 0 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .run-text-container button {
+    width: 100%;
+  }
+  .run-image-container {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
 }

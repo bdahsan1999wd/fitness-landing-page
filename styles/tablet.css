@@ -62,4 +62,10 @@
   .habits-box img {
     width: 75%;
   }
+
+  /* ----------Run Section Tablet/Medium Device Responsive Added---------- */
+  .run-section {
+    margin: 0 4.5rem;
+    margin-bottom: 6rem;
+  }
 }

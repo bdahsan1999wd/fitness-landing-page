@@ -337,3 +337,35 @@ main {
   line-height: 1.125rem;
   color: rgba(255, 255, 255, 0.5);
 }
+
+/* ----------Run Section Styles Added---------- */
+.run-section {
+  max-width: 1060px;
+  margin: 0 auto;
+  outline: 1px solid yellowgreen;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6rem;
+  border-radius: 1.125rem;
+  background: rgb(34, 34, 34);
+}
+
+/* -----Run Image Container Styles Added----- */
+.run-image-container {
+  max-width: 366px;
+  margin-right: 2rem;
+}
+
+.run-image-container img {
+  width: 100%;
+  border-radius: 1.125rem;
+}
+
+/* -----Run Text Container Styles Added----- */
+.run-text-container {
+  margin: 3rem;
+}
+
+.run-text-container p {
+  margin-bottom: 1.5rem;
+}
