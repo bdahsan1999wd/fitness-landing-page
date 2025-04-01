@@ -78,4 +78,21 @@
     margin-right: 0;
     margin-bottom: 2rem;
   }
+
+  /* ----------Trainings Section Mobile/Small Device Responsive Added---------- */
+  .trainings-section {
+    margin: 0 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .trainings-row-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .trainings-row-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .trainings-box-3,
+  .trainings-box-6 {
+    display: none;
+  }
 }
