@@ -116,4 +116,12 @@
   .form-row.single-column input {
     margin-bottom: 2.5rem;
   }
+
+  /* ----------Meet Our Team Section Mobile/Small Device Responsive Added---------- */
+  .meet-our-team-section {
+    margin: 0 1.5rem;
+  }
+  .team-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

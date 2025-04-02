@@ -89,4 +89,12 @@
   .form-container {
     width: 100%;
   }
+
+  /* ----------Meet Our Team Section Tablet/Medium Device Responsive Added---------- */
+  .meet-our-team-section {
+    margin: 0 4.5rem;
+  }
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
