@@ -190,6 +190,88 @@
 
         </section>
 
+        <!---------- BMI Calculator Section Added ---------->
+        <div class="calculator-text-container">
+            <h2 class="section-title">BMI Calculator</h2>
+            <p class="section-description">We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or <br> access to a gym.</p>
+        </div>
+
+        <section class="calculator-section">
+
+            <div class="table-form-container display-flex">
+
+                <!----- Calculator Container Added ----->
+                <div class="table-container">
+                    <h3>BMI Calculator Chart</h3>
+
+                    <table>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <!----- Form Container Added ----->
+                <div class="form-container">
+                    <h3>Calculate your BMI</h3>
+                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or
+                        access
+                        to a gym. </p>
+
+                    <form>
+
+                        <!----- Row 1: Height and Weight ----->
+                        <div class="form-row">
+                            <input type="number" placeholder="Height (CM)" required>
+                            <input type="number" placeholder="Weight (KG)" required>
+                        </div>
+
+                        <!----- Row 2: Age and Gender ----->
+                        <div class="form-row">
+                            <input type="number" placeholder="Age" required>
+                            <select required>
+                                <option value="">Gender</option>
+                            </select>
+                        </div>
+
+                        <!----- Row 3: Activity Factor ----->
+                        <div class="form-row">
+                            <select required>
+                                <option value="">Select Activity Factor</option>
+                            </select>
+                        </div>
+
+                        <!----- Calculate Button ----->
+                        <div class="form-row single-column">
+                            <input type="button" value="Calculate BMI">
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
 </body>

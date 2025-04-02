@@ -471,3 +471,113 @@ main {
   font-weight: 500;
   line-height: 1rem;
 }
+
+/* ----------BMI Calculator Section Styles Added---------- */
+.calculator-text-container {
+  outline: 1px solid gold;
+  max-width: 1060px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.calculator-section {
+  outline: 1px solid yellowgreen;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background-color: rgb(34, 34, 34);
+}
+
+.table-form-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  justify-content: space-between;
+  outline: 1px solid orangered;
+}
+
+/* -----Table Container Styles Added----- */
+.table-container h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin: 3.25rem 0rem;
+}
+
+.table-container table,
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+}
+
+th {
+  color: white;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+/* -----Form Container Styles Added----- */
+.form-container h3 {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  margin: 3.25rem 0 1rem;
+}
+.form-container p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.form-row input,
+.form-row select {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  margin-right: 0.75rem;
+}
+
+.form-row input {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-row select {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-row.single-column input {
+  width: 40%;
+  background-color: rgb(230, 83, 60);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 2.75rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}

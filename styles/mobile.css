@@ -95,4 +95,25 @@
   .trainings-box-6 {
     display: none;
   }
+
+  /* ----------BMI Calculator Section Mobile/Small Device Responsive Added---------- */
+  .calculator-text-container {
+    margin: 0 1.5rem;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+  .table-form-container {
+    margin: 0 1.5rem;
+    flex-direction: column;
+    align-items: start;
+  }
+  .table-container {
+    width: 100%;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .form-row.single-column input {
+    margin-bottom: 2.5rem;
+  }
 }
