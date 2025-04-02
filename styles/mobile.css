@@ -124,4 +124,13 @@
   .team-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  /* ----------Success Stories Section Mobile/Small Device Responsive Added---------- */
+  .success-stories-section {
+    margin: 0 1.5rem;
+  }
+  .stories-container {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
 }

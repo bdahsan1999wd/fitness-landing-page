@@ -623,3 +623,34 @@ th {
   top: 16rem;
   left: 2rem;
 }
+
+/* ----------Success Stories Section Styles Added---------- */
+.success-stories-section {
+  max-width: 1060px;
+  margin: 0 auto;
+  outline: 1px solid red;
+  margin-bottom: 5rem;
+}
+.stories-container {
+  justify-content: space-between;
+  margin-top: 3rem;
+  background-color: rgb(34, 34, 34);
+  border-radius: 1rem;
+}
+.story-box img {
+  width: 100%;
+  height: 80%;
+  padding: 1rem;
+  border-radius: 2rem;
+  filter: brightness(90%);
+}
+.story-box h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1rem 1rem;
+}
+.story-box p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 1rem 1rem;
+}

@@ -97,4 +97,9 @@
   .team-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* ----------Success Stories Section Tablet/Medium Device Responsive Added---------- */
+  .success-stories-section {
+    margin: 0 4.5rem;
+  }
 }
