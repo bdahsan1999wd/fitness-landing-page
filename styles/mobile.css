@@ -133,4 +133,14 @@
     flex-direction: column;
     margin-bottom: 3rem;
   }
+
+  /* ----------Footer Section Mobile/Small Device Responsive Added---------- */
+  .footer-container {
+    margin: 0 1.5rem;
+    grid-template-columns: 1fr;
+    justify-items: normal;
+  }
+  .copyright {
+    max-width: 528px;
+  }
 }

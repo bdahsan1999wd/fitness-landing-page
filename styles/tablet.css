@@ -101,5 +101,14 @@
   /* ----------Success Stories Section Tablet/Medium Device Responsive Added---------- */
   .success-stories-section {
     margin: 0 4.5rem;
+    margin-bottom: 3rem;
+  }
+
+  /* ----------Footer Section Tablet/Medium Device Responsive Added---------- */
+  .footer-container {
+    margin: 0 4.5rem;
+  }
+  .copyright {
+    max-width: 848px;
   }
 }
