@@ -69,14 +69,12 @@ header {
       rgb(10, 10, 10) 100%
     );
 
-  outline: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
 }
 
 /* ----------Navbar Styles Added---------- */
 nav {
-  outline: 1px solid blue;
   max-width: 1060px;
   margin: 0 auto;
   padding: 3.5rem 0 2rem;
@@ -148,7 +146,6 @@ a {
 
 /* ---------- Banner Section Styles Added ---------- */
 .banner-section {
-  outline: 1px solid greenyellow;
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -287,7 +284,6 @@ a {
 
 /* ---------- Main Section Styles Added---------- */
 main {
-  outline: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
   background: rgb(0, 0, 0);
@@ -296,7 +292,6 @@ main {
 
 /* ---------- Change Your Habits Section Styles Added ---------- */
 .change-habits {
-  outline: 1px solid blue;
   max-width: 1060px;
   margin: 0 auto;
   margin-top: 6rem;
@@ -342,7 +337,6 @@ main {
 .run-section {
   max-width: 1060px;
   margin: 0 auto;
-  outline: 1px solid yellowgreen;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 6rem;
@@ -374,7 +368,6 @@ main {
 .trainings-section {
   max-width: 1060px;
   margin: 0 auto;
-  outline: 1px solid orangered;
   margin-bottom: 6rem;
 }
 
@@ -474,7 +467,6 @@ main {
 
 /* ----------BMI Calculator Section Styles Added---------- */
 .calculator-text-container {
-  outline: 1px solid gold;
   max-width: 1060px;
   margin: 0 auto;
   text-align: center;
@@ -482,7 +474,6 @@ main {
 }
 
 .calculator-section {
-  outline: 1px solid yellowgreen;
   max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 5rem;
@@ -493,7 +484,6 @@ main {
   max-width: 1060px;
   margin: 0 auto;
   justify-content: space-between;
-  outline: 1px solid orangered;
 }
 
 /* -----Table Container Styles Added----- */
@@ -585,7 +575,6 @@ th {
 /* ----------Meet Our Team Section Styles Added---------- */
 .meet-our-team-section {
   max-width: 1060px;
-  outline: 1px solid blueviolet;
   margin: 0 auto;
 }
 
@@ -628,7 +617,6 @@ th {
 .success-stories-section {
   max-width: 1060px;
   margin: 0 auto;
-  outline: 1px solid red;
   margin-bottom: 5rem;
 }
 .stories-container {
@@ -657,14 +645,12 @@ th {
 
 /* ----------Footer Section Styles Added---------- */
 .footer-section {
-  outline: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
   background: rgb(34, 34, 34);
 }
 .footer-container {
   max-width: 1060px;
-  outline: 1px solid yellowgreen;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

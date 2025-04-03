@@ -16,7 +16,6 @@
   .banner-container {
     flex-direction: column;
     margin: 0 4.5rem;
-    outline: 1px solid greenyellow;
   }
 
   .banner-left {
